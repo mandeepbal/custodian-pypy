@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM pypy:2-5.1.0-slim
 
 RUN pip install c7n
 
